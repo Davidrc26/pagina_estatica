@@ -1,0 +1,21 @@
+@import url("colores.css");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Quicksand:wght@300;500;700&family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap');
+h1{
+    background: red;
+}
+
+.contenido{
+    display: grid;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.contenido div img{
+    border-radius: 20px;
+    height: 210px;
+}
+
+.contenido p{
+    color: var(--text-black);
+}
